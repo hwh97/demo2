@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.hwwwwh.demo2.view.MainActivity">
+
+    <Button
+        android:id="@+id/finger"
+        android:text="使用指纹验证"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/voice"
+        android:text="语音识别"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/imBtn"
+        android:text="Im示例"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>
